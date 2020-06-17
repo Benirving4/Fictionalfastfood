@@ -1,0 +1,161 @@
+#nav {
+    background-color: #33C7FF;
+    border-bottom: 2px dashed #487;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    word-spacing: 2em;
+}
+
+*{
+ margin: 0;
+ padding: 0;
+}
+
+
+.wrapper {
+    
+    width: 100%;
+}
+
+.img-banner {
+    display: none;
+}
+
+.img-info{
+    width: 100%;
+}
+
+.img-info h2 {
+    padding: 30px 30px 20px;
+    font-family: sans-serif;
+    font-size: 50px;
+    color: #111;
+    line-height: 44px;
+}
+
+img-info p {
+    padding: 0px 30px 20px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #111;
+    line-height: 24px;
+}
+
+.img-ToyStory{
+    width: 100%;
+}
+
+.img-Planet{
+    width: 50%;
+}
+
+.img-Buzz1{
+    width: 70%;
+}
+
+.img-Woody1{
+    width: 70%;
+}
+    body {
+    background-color: #33C7FF; 
+    background-position: center 280px, left top;
+    background-repeat: no-repeat, repeat-x;
+    background-size: 800x, auto;
+    font-family: 'quicksand', sans-serif;
+    margin: 0;
+    
+    
+    }
+
+@media only screen and (min-width: 768px) {
+    .img-banner {
+    display: block;
+    width: 100%;
+    padding-bottom: 30px;
+
+}
+    
+.wrapper {
+    
+    width: 600px;
+    margin: 0 auto;
+}
+    
+    .img-info h2 {
+    padding: 20px 0px 0px;
+}
+
+img-info p {
+    padding: 20px 0px 0px;
+}
+    
+.img-ToyStory{
+  padding-top: 30px;
+}
+    
+    .img-Planet{
+    width: 50%;
+}
+    .img-Buzz1{
+    width: 70%;
+}
+        .img-Woody1{
+    width: 70%;
+}
+    body {
+    background-color: #33C7FF; 
+    background-position: center 280px, left top;
+    background-repeat: no-repeat, repeat-x;
+    background-size: 800x, auto;
+    font-family: 'quicksand', sans-serif;
+    margin: 0;
+    
+    
+    }
+    
+@media only screen and (min-width: 1000px) {
+      .wrapper {
+    
+    width: 1000px;
+
+}
+    
+.img-info{
+    width: 50%;
+        float: right;
+}
+       
+.img-info h2 {
+    padding: 20px 0px 0px 30px;
+}
+
+.img-info p {
+    padding: 20px 0px 0px 30px;
+}
+    
+.img-ToyStory{
+        padding-top: 0px;
+        width: 50%;
+        float: left;
+}
+    
+    .img-Planet{
+    width: 50%;
+}
+    .img-Buzz1{
+    width: 70%;
+}
+    .img-Woody1{
+    width: 70%;
+}
+    body {
+    background-color: #33C7FF; 
+    background-position: center 280px, left top;
+    background-repeat: no-repeat, repeat-x;
+    background-size: 800x, auto;
+    font-family: 'quicksand', sans-serif;
+    margin: 0;
+    
+    
+    }
